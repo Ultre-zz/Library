@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DataConvert
+namespace Utility.uDateTime
 {
     public class DateTimeConvert
     {
@@ -20,7 +20,7 @@ namespace DataConvert
         /// <returns>1970-1-1到指定时间之间经过的毫秒数</returns>
         public static double ToTimeStamp(DateTime dateTime)
         {
-            DateTime startDateTime = DateTime.Parse("1970-1-1 0:0:0");
+            System.DateTime startDateTime = DateTime.Parse("1970-1-1 0:0:0");
             TimeSpan timeSpan = dateTime - startDateTime;
             return timeSpan.TotalMilliseconds;
         }
