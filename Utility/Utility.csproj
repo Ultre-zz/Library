@@ -40,8 +40,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="uDataBase\SqlServerHelper.cs" />
+    <Compile Include="uDateTime\Age.cs" />
+    <Compile Include="uDateTime\ChineseDateTime.cs" />
     <Compile Include="uDateTime\DateTimeConvert.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="uDateTime\Manimals.cs" />
     <Compile Include="uHttp\HttpUtils.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
